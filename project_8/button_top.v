@@ -1,19 +1,14 @@
 module iCE40_top(
     // 12MHz clock input
-    input clk,
+//    input clk,
     // Input from buttons (active low)
 //    input [3:0]sw_n,
+    input ext_button,
     // Outputs to the 8 onboard LEDs
     output[7:0]LED,
     );
 
-wire rst = 1'b0;//~sw_n[3]; // make reset active high
-
-led_wave #(.CTR_LEN(25)) wave(
-    .rst(rst),
-    .clk(clk),
-    .led(LED)
-  );  
-
+    assign LED[6:0] = 7'b0;
+    assign LED[7] = ext_button;
 
 endmodule

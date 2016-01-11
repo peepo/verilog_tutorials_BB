@@ -1,4 +1,4 @@
-module mojo_top(
+module iCE40_top(
     // 12MHz clock input
     input clk,
     // Input from buttons (active low)

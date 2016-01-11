@@ -1,4 +1,4 @@
-module mojo_top(
+module LED_top(
     // 50MHz clock input
     input clk,
     // Input from buttons (active low)
