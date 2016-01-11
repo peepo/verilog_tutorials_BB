@@ -10,9 +10,11 @@ Clone the repository:
 
     git clone https://github.com/peepo/verilog_tutorials_BB
 
-	cd project
-	make
-	make upload
+Build one of the examples:
+
+    cd project
+    make
+    make upload
 
 NB make upload uses -S to program SRAM so please remove J7 jumper and rotate 2xJ6 jumpers
 
