@@ -1,4 +1,8 @@
-verilog tutorials for iCE40HX8K Breakout Board
+verilog files for iCE40HX8K Breakout Board and built with IceStorm.
+
+	These files are designed to be used with verilog tutorials here:
+	https://embeddedmicro.com/tutorials/mojo/creating-a-project
+	see bottom-left.
 
 Install IceStorm: http://www.clifford.at/icestorm/
 
@@ -16,7 +20,8 @@ Build one of the examples:
     make
     make upload
 
-NB make upload uses -S to program SRAM so please remove J7 jumper and rotate 2xJ6 jumpers
+NB: make upload uses -S to program SRAM so please remove J7 jumper and rotate 2xJ6 jumpers
+
 
 Project
 
@@ -28,8 +33,8 @@ Project
 	3	PWM - No DCM?				LEDs fade	4x, 6x with clk_50 from divider
 	4	PWM2					LEDs animate 	8 LEDs fade in and out together ~1.5hz timing seems anomalous
 	5	PWM3					LEDs wave	8 LEDs fade in and out in sequence
-	6	_tb					testbed and	basic and 
-	7	_tb2					testbed clk	pwm for a couple of values
+	6	_tb					testbench and	basic and 
+	7	_tb2					testbench clk	pwm for a couple of values
 	8	ext button				ext button	6,800Ω connects + to input and switch, negative to other end switch
 	9	metastability				ext button	with debounce
 	10	servo					PWM		smallest servo P2 red-1 brown-2 orange-3
