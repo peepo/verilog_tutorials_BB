@@ -1,0 +1,7 @@
+# User Constraint File for iCE40hx8k Breakout Board
+
+# wire out: to be for servo
+set_io servo P16
+
+# Onboard 12Mhz oscillator
+set_io clk J3

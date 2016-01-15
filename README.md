@@ -38,7 +38,7 @@ Project
 	7	_tb2					testbench clk	pwm for a couple of values
 	8	ext button				ext button	6,800Ω connects + to input and switch, negative to other end switch
 	9	metastability				ext button	with debounce
-	10	servo					PWM		smallest servo P2 red-1 brown-2 orange-3
+	10	PWM					servo		arm swings through range: red-TP1 brown-TP3 orange-P16
 		Hello World				AVR		rely on AVR microcontroller in mojo, PIC is competitor
 		--					--		mimas, XuLA2 have PIC18F14K50, 
 		SPI					--		logipi may not have microcontroller? has spansion flash
