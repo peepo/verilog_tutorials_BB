@@ -23,8 +23,8 @@ Build one of the examples:
 NB: make upload uses -S to program SRAM so please remove J7 jumper and rotate 2xJ6 jumpers
 
 
-Project
-|----|----|----|
+|Project|name|brief|description|
+|----|----|----|----|
 |0|LED|
 |00|LED|with +out|
 |000|switch|tbc|
