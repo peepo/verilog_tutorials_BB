@@ -56,9 +56,9 @@ please send comments, and report bugs to the current maintainer: Jonathan Chetwy
 
 jay@peepo.com
 
-created in conjunction with these excellent resources:
+you may like these other excellent verilog tutorials:
 
-https://embeddedmicro.com/tutorials/mojo/creating-a-project
+https://github.com/Obijuan/open-fpga-verilog-tutorial/wiki
 
 https://nandland.com/verilog/tutorials/tutorial-introduction-to-verilog-for-beginners.html
 
