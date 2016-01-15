@@ -24,7 +24,7 @@ NB: make upload uses -S to program SRAM so please remove J7 jumper and rotate 2x
 
 
 Project
-
+|----|----|----|
 |0|LED|
 |00|LED|with +out|
 |000|switch|tbc|
