@@ -29,9 +29,9 @@ NB: make upload uses -S to program SRAM so please remove J7 jumper and rotate 2x
 |00|LED|with +out|
 |000|switch|tbc|
 |1|button|button|
-|2|Sync Logic|LED blink1Hz|
-3PWM1|LEDs fade|4x, 6x with clk_50 from divider
-|4|PWM2||LEDs animate |8 LEDs fade in and out together ~1.5hz timing seems anomalous
+|2|Sync Logic|LED blink|1Hz|
+|3|PWM1|LEDs fade|4x, 6x with clk_50 from divider
+|4|PWM2|LEDs animate |8 LEDs fade in and out together ~1.5hz timing seems anomalous
 |5|PWM3|LEDs wave|8 LEDs fade in and out in sequence
 |5_PLL|PWM4|LEDs wave|8 LEDs fade in and out faster in sequence using PLL 25/48/96MHz
 |6|_tb1|testbench and|basic and 
@@ -43,12 +43,12 @@ NB: make upload uses -S to program SRAM so please remove J7 jumper and rotate 2x
 ||----|--|mimas, XuLA2 have PIC18F14K50, 
 ||SPI-|--|logipi may not have microcontroller? has spansion flash
 ||LogiCore|RAM|no project...
-|17Timing|100Mhz|builds with expected timing errors : odd that when run @50Mhz no errors?
+|17|Timing|100Mhz|builds with expected timing errors : odd that when run @50Mhz no errors?
 |18|Timing_pipeline|100Mhz|builds with no timing errors due to pipeline
 |19|FSM |LEDs 2x|left_PWM & right_PWM, maybe also 5x states, ie forward....
-||Mem. map|AVR|ibid
+||Memory mapping|AVR|ibid
 ||SDRAM|N/A|MimasV2possibly or XuLA2 SDRAM before writing to SDcard
-||Embedded.processor|N/A|skipping for moment.
+||Embedded processor|N/A|skipping for moment.
 
 ---
 
