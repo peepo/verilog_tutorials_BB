@@ -34,16 +34,16 @@ NB: make upload uses -S to program SRAM so please remove J7 jumper and rotate 2x
 |4|PWM2|LEDs animate |8 LEDs fade in and out together ~1.5hz timing seems anomalous
 |5|PWM3|LEDs wave|8 LEDs fade in and out in sequence
 |5_PLL|PWM4|LEDs wave|8 LEDs fade in and out faster in sequence using PLL 25/48/96MHz
-|6|_tb1|testbench and|basic and 
+|6|_tb1|testbench|basic and 
 |7|_tb2|testbench clk|pwm for a couple of values
-|8|ext button|ext button|6,800Ω connects + to input and switch, negative to other end switch
+|8|ext button|ext button|6,800Ω connects +ive to input and switch, -ive to other end switch
 |9|metastability|ext button|with debounce
 |10|PWM5|servo|arm swings through range: red-TP1 brown-TP3 orange-P16
 ||Hello World|AVR|rely on AVR microcontroller in mojo, PIC is competitor
 ||----|--|mimas, XuLA2 have PIC18F14K50, 
 ||SPI-|--|logipi may not have microcontroller? has spansion flash
 ||LogiCore|RAM|no project...
-|17|Timing|100Mhz|builds with expected timing errors : odd that when run @50Mhz no errors?
+|17|Timing|100Mhz|builds with timing errors : odd that @50Mhz no errors?
 |18|Timing_pipeline|100Mhz|builds with no timing errors due to pipeline
 |19|FSM |LEDs 2x|left_PWM & right_PWM, maybe also 5x states, ie forward....
 ||Memory mapping|AVR|ibid
