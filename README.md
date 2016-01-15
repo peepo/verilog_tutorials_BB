@@ -1,8 +1,8 @@
-verilog files for iCE40HX8K Breakout Board, built with IceStorm.
-
-	These files are designed to be used with verilog tutorials here:
-	https://embeddedmicro.com/tutorials/mojo/creating-a-project
-	see bottom-left.
+	verilog files for iCE40HX8K Breakout Board, build with IceStorm.
+	These files are designed to be used with verilog tutorials
+	see bottom-left here:
+	
+https://embeddedmicro.com/tutorials/mojo/creating-a-project
 
 Install IceStorm: http://www.clifford.at/icestorm/
 
