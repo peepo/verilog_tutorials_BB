@@ -39,6 +39,7 @@ NB: make upload uses -S to program SRAM so please remove J7 jumper and rotate 2x
 |8|ext button|ext button|6,800Ω connects +ive to input and switch, -ive to other end
 |9|metastability|ext button|with debounce
 |10|PWM5|servo|arm swings through range: red-TP1 brown-TP3 orange-P16
+|10_vga|colour|VGA PLL| display bars 640x480
 ||Hello World|AVR|rely on AVR microcontroller in mojo, PIC is competitor
 ||----|--|mimas, XuLA2 have PIC18F14K50, 
 ||SPI-|--|logipi may not have microcontroller? has spansion flash

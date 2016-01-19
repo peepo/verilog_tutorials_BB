@@ -1,0 +1,15 @@
+set_io b0    H16  # white
+set_io b1    J15
+set_io g0    G14  # grey
+set_io g1    K14
+set_io r0    K15  # purple
+set_io r1    M16  
+set_io hsync N16  # blue
+set_io vsync P16  # yellow
+# gnd		    green
+#set_io D1 99
+#set_io D2 98
+#set_io D3 97
+#set_io D4 96
+#set_io D5 95
+set_io pclk J3
