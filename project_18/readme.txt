@@ -1,4 +1,4 @@
 using pipeline so timing is not broken:
-Total path delay: 31.39 ns (31.86 MHz)
+Total path delay: 37.28 ns (26.83 MHz)
 
 see Makefile

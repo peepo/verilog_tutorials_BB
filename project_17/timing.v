@@ -1,5 +1,5 @@
 
-module blinker(
+module timing(
 	input clk,
 	input rst,
 	input [8:0] a,

@@ -1,5 +1,5 @@
 
-module blinker(
+module pipeline(
 	input clk,
 	input rst,
 	input [8:0] a,
@@ -20,7 +20,7 @@ module blinker(
         	b_d = b;
 		temp1_d = (a_q * a_q) * (a_q * a_q);
 		temp2_d = (b_q * b_q) * (b_q * b_q);
-		c_d =  temp1_q * temp2_q;
+		c_d = a_q * temp1_q * temp2_q;
 	end
    
 	always @(posedge clk) begin
