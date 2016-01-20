@@ -1,0 +1,61 @@
+# User Constraint File for iCE40hx8k Breakout Board
+
+set_io a[0] T1
+set_io a[1] R2
+set_io a[2] R3
+set_io a[3] T5
+set_io a[4] T6
+set_io a[5] T7
+set_io a[6] T9
+set_io a[7] P8
+set_io a[8] M1
+
+set_io b[0] T10
+set_io b[1] T11
+set_io b[2] N10
+set_io b[3] N12
+set_io b[4] T13
+set_io b[5] T15
+set_io b[6] R16
+set_io b[7] T2
+set_io b[8] N2
+
+set_io c[0] T3
+set_io c[1] R4
+set_io c[2] R5
+set_io c[3] R6
+set_io c[4] T8
+set_io c[5] R9
+set_io c[6] P9
+set_io c[7] R10
+set_io c[8] P10
+set_io c[9] M11
+set_io c[10] P13
+set_io c[11] T14
+set_io c[12] T16
+set_io c[13] B1
+set_io c[14] C1
+set_io c[15] D1
+set_io c[16] E2
+set_io c[17] F2
+set_io c[18] G2
+set_io c[19] H2
+set_io c[20] J2
+set_io c[21] K3
+set_io c[22] L3
+set_io c[23] M2
+set_io c[24] N3
+set_io c[25] P1
+set_io c[26] B2
+set_io c[27] C2
+set_io c[28] D2
+set_io c[29] F1
+set_io c[30] G1
+set_io c[31] H1
+set_io c[32] R1
+set_io c[33] J1
+set_io c[34] K1
+set_io c[35] L1
+
+# Onboard 12Mhz oscillator
+set_io clk J3

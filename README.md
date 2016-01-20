@@ -44,8 +44,8 @@ NB: make upload uses -S to program SRAM so please remove J7 jumper and rotate 2x
 ||----|--|mimas, XuLA2 have PIC18F14K50, 
 ||SPI-|--|logipi may not have microcontroller? has spansion flash
 ||LogiCore|RAM|no project...
-|17|Timing|100Mhz|builds with timing errors : odd that @50Mhz no errors?
-|18|Timing_pipeline|100Mhz|builds with no timing errors due to pipeline
+|17|Timing|12Mhz|Total path delay: 84.10 ns (11.89 MHz)?
+|18|Timing_pipeline|12Mhz|Total path delay: 31.39 ns (31.86 MHz)
 |19|FSM |LEDs 2x|left_PWM & right_PWM, maybe also 5x states, ie forward....
 ||Memory mapping|AVR|ibid
 ||SDRAM|N/A|MimasV2possibly or XuLA2 SDRAM before writing to SDcard
