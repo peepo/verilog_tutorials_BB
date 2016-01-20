@@ -8,7 +8,7 @@ module timing_top(
 
 wire rst = 1'b0;
 
-blinker awesome_blinker (
+timing broken (
     .clk(clk),
     .rst(rst),
     .a(a),
