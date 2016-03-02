@@ -9,6 +9,11 @@ Install IceStorm: http://www.clifford.at/icestorm/
 Clone the repository:
 
     git clone https://github.com/peepo/verilog_tutorials_BB
+    
+Download [user guide](http://www.latticesemi.com/~/media/LatticeSemi/Documents/UserManuals/EI/EB85.pdf?document_id=50373)
+
+    read pages 5-6
+    NB: make upload uses -S to program SRAM so please remove J7 jumper and rotate 2xJ6 jumpers
 
 Build one of the examples:
 
@@ -16,8 +21,7 @@ Build one of the examples:
     make
     make upload
 
-NB: make upload uses -S to program SRAM so please remove J7 jumper and rotate 2xJ6 jumpers
-
+Projects:
 
 |Project|name|brief|description|
 |----|----|----|----|
